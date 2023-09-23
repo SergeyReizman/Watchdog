@@ -1,0 +1,14 @@
+{
+    "services": [
+      {
+        "name": "ServiceName1",
+        "dependencies": ["DependencyService1", "DependencyService2"]
+      },
+      {
+        "name": "ServiceName2",
+        "dependencies": []
+      }
+    ],
+    "monitoring_interval_seconds": 60
+  }
+  
